@@ -11,4 +11,4 @@
     command: sudo systemctl start docker
 
   - name: deploy banking application
-    command: sudo docker run -itd -p 8082:8081 pujariprasanth/insurance:1.0
+    command: sudo docker run -itd -p 8083:8081 pujariprasanth/insurance:1.0
